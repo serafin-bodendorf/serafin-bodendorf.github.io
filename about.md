@@ -12,5 +12,3 @@ Ich habe doch auch keine Ahnung, was das hier für eine Website ist...
 - gibt
 - es
 - Listen!
-
-[ ] Cool!
