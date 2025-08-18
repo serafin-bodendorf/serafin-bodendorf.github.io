@@ -21,3 +21,76 @@
 h1 {
   font-weight: 900;
 }
+
+h1, h2{
+  color: var(--accent);
+}
+
+.postlist {
+  list-style: none;
+  padding: 0%;
+
+  
+
+  a {
+    text-decoration: none;
+    color: var(--text);
+
+    li {
+      margin: 16px 0;
+      padding: 24px;
+      outline: solid 1px var(--border);
+      border-radius: 8px;
+
+      h3 {
+        margin: 0;
+      }
+
+      .post-meta {
+        margin: 0 0 8px 0;
+      }
+
+      .post-preview, .post-description {
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+
+  a :hover {
+    background-color: var(--accent-bg);
+    outline-color: var(--accent);
+    
+    h3 {
+        color: var(--accent);
+    }
+  }
+}
+
+
+
+.post-meta {
+  color: var(--text-light);
+  font-style: italic;
+}
+
+article{
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: none;
+
+  h1 {
+    margin-bottom: 0px;
+  }
+  .post-preview, .post-description {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 8px 0 0 0;
+  }
+
+  .post-meta {
+    margin: 8px 0 32px 0;
+  }
+
+}

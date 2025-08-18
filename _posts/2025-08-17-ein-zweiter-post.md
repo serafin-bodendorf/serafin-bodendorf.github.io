@@ -1,5 +1,5 @@
 ---
-title: Hello World
+title: Ein zweiter Post
 description: "Dieser Post ist rein zu Testzwecken gedacht!"
 date: 2025-08-17T22:49:29.672Z
 preview: "Dieser Post ist rein zu Testzwecken gedacht!"
