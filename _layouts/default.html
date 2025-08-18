@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <!-- Use simple.css as a base -->
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.css">
+    <!-- import fonts -->
+    <link rel="stylesheet" href="{{ '/assets/fonts/Satoshi/css/satoshi.css' | relative_url }}">
+    <!-- custom Sass-->
+    <link rel="stylesheet" href="{{ '/assets/stylesheets/main.css' | relative_url }}">
+  </head>
+  <body>
+    {% include header.html %}
+
+    <main>
+      {{ content }}
+    </main>
+
+    {% include footer.html %}
+  </body>
+</html>

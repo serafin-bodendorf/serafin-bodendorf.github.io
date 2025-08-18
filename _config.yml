@@ -1,7 +1,6 @@
 # General
-title: Serafin's homepage
+title: Serafin Bodendorf
 description: Ich hab keine Ahnung, was ich tue!
 url: "https://serafin-bodendorf.github.io"
-
-#Theme
-theme: jekyll-theme-minimal
+markdown: kramdown
+permalink: pretty
