@@ -3,12 +3,9 @@ layout: default
 title: About
 ---
 
-# Hilfe, wo bin ich hier?
+# Über diese Seite
+Ich hab doch auch keine Ahnung!
 
-Ich habe doch auch keine Ahnung, was das hier für eine Website ist...
+...
 
-- aber
-- immerhin
-- gibt
-- es
-- Listen!
+Und im Übrigen habe ich alle wichtigen Infos auch schon auf der [Startseite]({{ '/' | relative_url }}).

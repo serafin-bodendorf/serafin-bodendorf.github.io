@@ -24,7 +24,7 @@ Und ich brauche auch noch eine Seite, wo man dann alle Posts sehen kann. Moment,
 ## To Do
 Warum mache ich nicht meine To Do List für diese Website sichtbar?
 
-- About-Seite entfernen
+- [About]( {{ '/about' | relative_url }} )-Seite entfernen
 - Test-Blogposts erstellen
 - Blogposts auf der Startseite auflisten
 - Seite mit allen Blogposts erstellen
