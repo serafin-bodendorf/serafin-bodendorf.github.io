@@ -24,4 +24,4 @@ Ich studiere gerade [Interkative Medien](https://www.tha.de/Gestaltung/Interakti
   {% endfor %}
 </ul>
 
-<a href="{{ '/posts' | relative_url }}"><button>→ Alle Posts</button>
+<a href="{{ '/posts' | relative_url }}">→ Alle Posts</a>

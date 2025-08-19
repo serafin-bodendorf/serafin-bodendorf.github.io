@@ -12,16 +12,14 @@ Geschichten und sonstigen Texten, die ich einfach gerne
 mal verfassen wollte. Außerdem möchte ich hier meine
 kreative Arbeit (insbesondere an persönlichen 
 Projekten) dokumentieren. Wie viele Leute das Ganze am 
-Ende dann wirklich lesen, ob es überhaupt jemand ließt,
+Ende dann wirklich lesen, ob es überhaupt jemand liest,
 ist für mich erstmal zweitrangig.
 
-Warum das ganze dann überhaupt öffentlich machen?
-Warum denn nicht? Klar, ich könnte das alles auch in
-mein privates Tagebuch mit Vorhängeschloss schreiben,
-aber was hätte ich davon? Andererseits, im Fall dass
-irgendwas, was ich hier fabriziere doch mal irgendeinen 
-Wert hat, ist es doch gut, es schnell und einfach 
-teilen zu können, oder?
+Warum das Ganze dann überhaupt öffentlich machen? Warum denn nicht? 
+Klar, ich könnte das alles auch in mein privates Tagebuch mit 
+Vorhängeschloss schreiben, aber was hätte ich davon? Andererseits, 
+im Fall, dass irgendwas, was ich hier fabriziere doch mal irgendeinen 
+Wert hat, ist es doch gut, es schnell und einfach teilen zu können, oder?
 
 > To Do: Einen Teilen-Button hinzufügen
 
@@ -63,7 +61,7 @@ zu Videoskripten ausarbeiten.
 ### 2. Es ist nicht Social Media
 
 Ihr wisst, was ich damit meine. Social Media kann Spaß machen
-und dabei Helfen, interessante Inhalte zu entdecken, aber es 
+und dabei helfen, interessante Inhalte zu entdecken, aber es 
 hat auch viele toxische Seiten. Hier kann ich einfach meine
 Inhalte veröffentlichen, wie ich will, ohne mir Gedanken über
 Empfehlungsalgorithmen, Werbefreundlichkeit oder konkurrierende
@@ -105,7 +103,7 @@ man ein Layout, das inkonsistent und visuell verwirrend ist.
 Solche Dinge kann ich hier verhindern. 
 
 *(Ich benutze im Moment simple.css als Grundlage für mein
-styling und habe damit auch schon wieder meine Probleme –
+Styling und habe damit auch schon wieder meine Probleme –
 der Header ist irgendwie hässlich und die Responsivität ist 
 kaputt)*
 
