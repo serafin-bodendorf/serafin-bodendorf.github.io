@@ -1,2 +1,2 @@
-# Serafin Bodendorf
-Willkommen auf meine Blog – also das ist zumindest der Plan, dass das mal mein Blog wird. Bisher ist hier noch gähnende Leere. Viel Spaß <3
+# Serafins Blog
+Hi, ich bin Serafin und in diesem Repository hoste ich meinen Blog. Er ist verfügbar unter <https://serafin-bodendorf.github.io>!
