@@ -36,7 +36,7 @@ body {
     background-color: black;
     display: flex;
     align-items: center;
-    padding: 16px;
+    padding: 1rem min(5%, 5rem);
     height: min-content;
 
     h1 {
@@ -49,7 +49,6 @@ body {
     nav {
       margin: 0;
       padding: 0;
-      flex-grow: 0;
 
       display: flex;
       gap: 1rem;
@@ -59,6 +58,7 @@ body {
         border: none;
         padding: .8rem;
         font-size: 1.15rem;
+        text-decoration: none;
       }
 
       a:hover{
@@ -66,19 +66,23 @@ body {
       }
     }
 
-    /* Checkbox verstecken */
-    .menu-toggle {
-      display: none;
-    }
-
-    /* Hamburger-Icon nur auf kleinen Screens */
     .menu-icon {
       display: none;
       font-size: 2rem;
       cursor: pointer;
-      user-select: none;
-      //position: relative;
-      //z-index: 1001; /* ganz oben, damit man es klicken kann */
+      background: none;
+      border: none;
+      color: white;
+
+      padding: 0;
+      margin: 0;
+
+      flex-grow: 1;
+      text-align: right;
+    }
+
+    .menu-icon:hover {
+      background-color: transparent;
     }
 
     /* Mobile Layout */
@@ -88,24 +92,17 @@ body {
         flex-direction: column;
         background: #000;
         position: absolute;
-        top: 60px; /* Höhe deines Headers */
+        top: 4.8rem; /* Höhe deines Headers */
         right: 0;
         padding: 1rem;
-        //z-index: 1000; /* unter dem Icon, aber über dem Rest */
+      }
+
+      .menu.show {
+        display: flex; /* sichtbar, wenn .show-Klasse aktiv ist */
       }
 
       .menu-icon {
         display: block;
-        color: white;
-      }
-
-      /* Menü sichtbar, wenn Checkbox aktiv */
-      .menu-toggle:checked + .menu-icon + .menu {
-        display: flex;
-      }
-
-      a{
-        text-decoration: none;
       }
     }
 

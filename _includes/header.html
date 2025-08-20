@@ -1,13 +1,15 @@
 <header>
   <h1>SERAFINS<span class="thin"> BLOG</span></h1>
 
-  <!-- Checkbox für Toggle -->
-  <input type="checkbox" id="menu-toggle" class="menu-toggle">
-  <label for="menu-toggle" class="menu-icon">☰</label>
+  <!-- Hamburger Button -->
+  <button id="menu-button" class="menu-icon" aria-expanded="false" aria-controls="menu">
+    ☰
+  </button>
 
-  <nav class="menu">
+  <nav class='menu' id="menu">
     <a href="{{ '/' | relative_url }}">Home</a>
     <a href="{{ '/posts' | relative_url }}">Alle Posts</a>
     <a href="{{ '/kanaele' | relative_url }}">Kanäle</a>
   </nav>
 </header>
+<script src="{{ '/assets/scripts/burger_menu.js' | relative_url }}"></script>
