@@ -7,8 +7,6 @@ tags: ["Social Media", "Internet"]
 categories: ["Kurzgeschichte"]
 ---
 
-# Account Löschen
-
 Mein Mauszeiger schwebt über der Schaltfläche. Ich zögere kurz, dann klicke ich auf „Account löschen“. Ich benutze XXX eh schon seit Monaten nicht mehr – es wird Zeit, die Scheidung offiziell zu machen.
 
 Ein Popup erscheint: „Willst du deinen Account wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden.“ Ich klicke auf den blutroten Button, auf dem „Fortfahren“ steht.
