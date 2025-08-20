@@ -43,7 +43,15 @@ body {
       margin: 0;
       flex-grow: 1;
       text-align: left;
-      max-width: 100%
+      max-width: 100%;
+
+      a{
+        text-decoration: none;
+      }
+
+      a:hover{
+        color: var(--text);
+      }
     }
 
     nav {
