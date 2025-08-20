@@ -1,8 +1,15 @@
 <header>
-  <h1>Serafins Blog</h1>
-  <nav>
+  <h1>SERAFINS<span class="thin"> BLOG</span></h1>
+
+  <!-- Hamburger Button -->
+  <button id="menu-button" class="menu-icon" aria-expanded="false" aria-controls="menu">
+    ☰
+  </button>
+
+  <nav class='menu' id="menu">
     <a href="{{ '/' | relative_url }}">Home</a>
     <a href="{{ '/posts' | relative_url }}">Alle Posts</a>
-    <a href="{{ '/kanaele' | relative_url}}">Kanäle</a>
+    <a href="{{ '/kanaele' | relative_url }}">Kanäle</a>
   </nav>
 </header>
+<script src="{{ '/assets/scripts/burger_menu.js' | relative_url }}"></script>

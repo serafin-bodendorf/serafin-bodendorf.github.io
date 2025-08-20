@@ -15,79 +15,162 @@
 }
 
 * {
-    font-family: Satoshi, Futura, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Satoshi', Futura, 'Segoe UI', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-h1 {
-  font-weight: 900;
-}
+body {
 
-h1, h2{
-  color: var(--accent);
-}
-
-.postlist {
-  list-style: none;
-  padding: 0%;
-
-  
-
-  a {
-    text-decoration: none;
-    color: var(--text);
-
-    li {
-      margin: 16px 0;
-      padding: 24px;
-      outline: solid 1px var(--border);
-      border-radius: 8px;
-
-      h3 {
-        margin: 0;
-      }
-
-      .post-meta {
-        margin: 0 0 8px 0;
-      }
-
-      .post-preview, .post-description {
-        margin: 0;
-        padding: 0;
-      }
-    }
+  h1 {
+    font-weight: 900;
   }
 
-  a :hover {
-    background-color: var(--accent-bg);
-    outline-color: var(--accent);
+  h1, h2{
+    color: var(--accent);
+  }
+
+  .thin {
+    font-weight: 300;
+  }
+
+  header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 1rem min(5%, 5rem);
+    height: min-content;
+
+    h1 {
+      margin: 0;
+      flex-grow: 1;
+      text-align: left;
+      max-width: 100%
+    }
+
+    nav {
+      margin: 0;
+      padding: 0;
+
+      display: flex;
+      gap: 1rem;
+
+      a {
+        margin: 0;
+        border: none;
+        padding: .8rem;
+        font-size: 1.15rem;
+        text-decoration: none;
+      }
+
+      a:hover{
+        background-color: transparent;
+      }
+    }
+
+    .menu-icon {
+      display: none;
+      font-size: 2rem;
+      cursor: pointer;
+      background: none;
+      border: none;
+      color: white;
+
+      padding: 0;
+      margin: 0;
+
+      flex-grow: 1;
+      text-align: right;
+    }
+
+    .menu-icon:hover {
+      background-color: transparent;
+    }
+
+    /* Mobile Layout */
+    @media (max-width: 768px) {
+      .menu {
+        display: none;
+        flex-direction: column;
+        background: #000;
+        position: absolute;
+        top: 4.8rem; /* Höhe deines Headers */
+        right: 0;
+        padding: 1rem;
+      }
+
+      .menu.show {
+        display: flex; /* sichtbar, wenn .show-Klasse aktiv ist */
+      }
+
+      .menu-icon {
+        display: block;
+      }
+    }
+
+  }
+
+  .postlist {
+    list-style: none;
+    padding: 0%;
+
     
-    h3 {
-        color: var(--accent);
+
+    a {
+      text-decoration: none;
+      color: var(--text);
+
+      li {
+        margin: 16px 0;
+        padding: 24px;
+        outline: solid 1px var(--border);
+        border-radius: 8px;
+
+        h3 {
+          margin: 0;
+        }
+
+        .post-meta {
+          margin: 0 0 8px 0;
+        }
+
+        .post-preview, .post-description {
+          margin: 0;
+          padding: 0;
+        }
+      }
+    }
+
+    a :hover {
+      background-color: var(--accent-bg);
+      outline-color: var(--accent);
+      
+      h3 {
+          color: var(--accent);
+      }
     }
   }
-}
 
 
-
-.post-meta {
-  color: var(--text-light);
-  font-style: italic;
-}
-
-article{
-  padding: 0;
-  margin: 0;
-  outline: none;
-  border: none;
-
-  .post-preview, .post-description {
-    font-size: 1.5rem;
-    font-weight: 500;
-    margin: 8px 0 0 0;
-  }
 
   .post-meta {
-    margin: 16px 0 32px 0;
+    color: var(--text-light);
+    font-style: italic;
   }
 
+  article{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+
+    .post-preview, .post-description {
+      font-size: 1.5rem;
+      font-weight: 500;
+      margin: 8px 0 0 0;
+    }
+
+    .post-meta {
+      margin: 16px 0 32px 0;
+    }
+
+  }
 }
