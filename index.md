@@ -13,15 +13,17 @@ Das hier ist keine aufpolierte Portfolioseite (an der arbeite ich noch), sondern
 
 Ich studiere gerade [Interkative Medien](https://www.tha.de/Gestaltung/Interaktive-Medien.html) an der Technischen Hochschule Augsburg und unterstütze als studentische Hilfskraft die Jugendredaktion [DEiN LiFE](https://www.deinlife.net/) im Medienzentrum München. Außerdem mache ich sporadisch Videos auf [YouTube](https://www.youtube.de/@serafilmyt).
 
-## Neuste Posts
+<section>
+  <h2>Neuste Posts</h2>
 
-<ul>
-  {% for post in site.posts limit:5 %}
-    <li>
-      <strong><a href="{{ post.url | relative_url }}">{{ post.title }}</a></strong> | 
-      <span>{{ post.date | date: "%d. %B %Y" }}</span>
-    </li>
-  {% endfor %}
-</ul>
+  <ul>
+    {% for post in site.posts limit:5 %}
+      <li>
+        <strong><a href="{{ post.url | relative_url }}">{{ post.title }}</a></strong> | 
+        <span>{{ post.date | date: "%d. %B %Y" }}</span>
+      </li>
+    {% endfor %}
+  </ul>
 
-<a href="{{ '/posts' | relative_url }}">→ Alle Posts</a>
+  <a href="{{ '/posts' | relative_url }}">→ Alle Posts</a>
+</section>
