@@ -40,7 +40,6 @@ body {
     height: min-content;
 
     h1 {
-      padding-left: .8rem;
       margin: 0;
       flex-grow: 1;
       text-align: left;
@@ -53,9 +52,10 @@ body {
       flex-grow: 0;
 
       display: flex;
+      gap: 1rem;
 
       a {
-        margin: 0 8px;
+        margin: 0;
         border: none;
         padding: .8rem;
         font-size: 1.15rem;
@@ -65,6 +65,50 @@ body {
         background-color: transparent;
       }
     }
+
+    /* Checkbox verstecken */
+    .menu-toggle {
+      display: none;
+    }
+
+    /* Hamburger-Icon nur auf kleinen Screens */
+    .menu-icon {
+      display: none;
+      font-size: 2rem;
+      cursor: pointer;
+      user-select: none;
+      //position: relative;
+      //z-index: 1001; /* ganz oben, damit man es klicken kann */
+    }
+
+    /* Mobile Layout */
+    @media (max-width: 768px) {
+      .menu {
+        display: none;
+        flex-direction: column;
+        background: #000;
+        position: absolute;
+        top: 60px; /* Höhe deines Headers */
+        right: 0;
+        padding: 1rem;
+        //z-index: 1000; /* unter dem Icon, aber über dem Rest */
+      }
+
+      .menu-icon {
+        display: block;
+        color: white;
+      }
+
+      /* Menü sichtbar, wenn Checkbox aktiv */
+      .menu-toggle:checked + .menu-icon + .menu {
+        display: flex;
+      }
+
+      a{
+        text-decoration: none;
+      }
+    }
+
   }
 
   .postlist {

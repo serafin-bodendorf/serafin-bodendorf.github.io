@@ -1,8 +1,13 @@
 <header>
   <h1>SERAFINS<span class="thin"> BLOG</span></h1>
-  <nav>
+
+  <!-- Checkbox für Toggle -->
+  <input type="checkbox" id="menu-toggle" class="menu-toggle">
+  <label for="menu-toggle" class="menu-icon">☰</label>
+
+  <nav class="menu">
     <a href="{{ '/' | relative_url }}">Home</a>
     <a href="{{ '/posts' | relative_url }}">Alle Posts</a>
-    <a href="{{ '/kanaele' | relative_url}}">Kanäle</a>
+    <a href="{{ '/kanaele' | relative_url }}">Kanäle</a>
   </nav>
 </header>
