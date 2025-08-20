@@ -2,8 +2,8 @@
 ---
 :root {
   color-scheme: dark;
-  --bg: #212121;
-  --accent-bg: #2b2b2b;
+  --bg: #1a1a1a;
+  --accent-bg: #000;
   --text: #dcdcdc;
   --text-light: #ababab;
   --accent: #FF511C;
@@ -32,8 +32,20 @@ body {
     font-weight: 300;
   }
 
+  button, .button {
+    font-weight: bold;
+    color: var(--accent-bg);
+    background-color: var(--accent);
+  }
+  
+  button:enabled:hover, .button:not([aria-disabled="true"]):hover{
+    color: var(--accent);
+    background-color: var(--accent-bg);
+    border-color: var(--accent);
+  }
+
   header{
-    background-color: black;
+    background-color: var(--accent-bg);
     display: flex;
     align-items: center;
     padding: 1rem min(5%, 5rem);
@@ -43,7 +55,15 @@ body {
       margin: 0;
       flex-grow: 1;
       text-align: left;
-      max-width: 100%
+      max-width: 100%;
+
+      a{
+        text-decoration: none;
+      }
+
+      a:hover{
+        color: var(--text);
+      }
     }
 
     nav {
