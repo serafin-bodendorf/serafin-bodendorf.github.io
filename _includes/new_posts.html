@@ -5,7 +5,7 @@
     {% for post in site.posts limit:5 %}
       <li>
         <strong><a href="{{ post.url | relative_url }}">{{ post.title }}</a></strong> | 
-        <span>{{ post.date | date: "%d. %B %Y" }}</span>
+        <span style="white-space: nowrap;">{{ post.date | date: "%d. %B %Y" }}</span>
       </li>
     {% endfor %}
   </ul>
