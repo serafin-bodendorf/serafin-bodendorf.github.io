@@ -1,11 +1,20 @@
 ---
 layout: post
 title: Schreib deinen Blogpost doch selber!
-description: "Ich mach heute frei!"
-date: 
-preview: "Ich mach heute frei!"
+description: Ich mach heute frei!
+date: 2025-08-22T10:00:00.000Z
+preview: null
 tags: []
 categories: []
+draft: true
+keywords:
+    - humor
+    - interaktiv
+    - schreiben
+    - schreibübung
+    - witzig
+    - webtoy
+slug: schreib-deinen-blogpost-doch-selber
 ---
 
 <textarea id="user-input" name="user-input" rows="20">
