@@ -1,6 +1,9 @@
 # General
-title: Serafin Bodendorf
-description: Ich hab keine Ahnung, was ich tue!
+title: Serafins Blog
+description: Bloggedi Blog Blog!
 url: "https://seafinsblog.de"
 markdown: kramdown
 permalink: pretty
+excerpt_separator: "<!--more-->"
+plugins:
+  - jekyll-seo-tag

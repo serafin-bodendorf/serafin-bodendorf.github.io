@@ -8,14 +8,6 @@
     {
       "title": "_drafts",
       "path": "[[workspace]]/_drafts"
-    },
-    {
-      "title": "_drafts",
-      "path": "[[workspace]]/_drafts"
-    },
-    {
-      "title": "_posts",
-      "path": "[[workspace]]/_posts"
     }
   ],
   "frontMatter.content.publicFolder": "assets",
@@ -23,7 +15,7 @@
   "frontMatter.preview.host": "http://localhost:4000",
   "frontMatter.taxonomy.contentTypes": [
     {
-      "name": "default",
+      "name": "post",
       "pageBundle": false,
       "previewPath": null,
       "fields": [
@@ -50,11 +42,6 @@
           "type": "image"
         },
         {
-          "title": "Is in draft",
-          "name": "draft",
-          "type": "draft"
-        },
-        {
           "title": "Tags",
           "name": "tags",
           "type": "tags"
@@ -68,11 +55,10 @@
           "title": "layout",
           "name": "layout",
           "type": "string"
-<<<<<<< HEAD
         },
         {
-          "title": "hide-description",
-          "name": "hide-description",
+          "title": "hide-excerpt",
+          "name": "hide-excerpt",
           "type": "boolean"
         },
         {
@@ -84,8 +70,6 @@
             "Lautgedicht",
             "Lyrik"
           ]
-=======
->>>>>>> aab7624509438316c3819c727b1873969f4ac9bd
         }
       ]
     }
