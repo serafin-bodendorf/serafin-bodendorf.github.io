@@ -178,7 +178,7 @@ window.addEventListener("scroll", () => {
     const scrollPercent = scrollTop / docHeight;
 
     // Farbe anhand des Scrollfortschritts berechnen (HSL-Farbkreis)
-    const hue = scrollPercent * 360;
+    const hue = scrollPercent * 10 * 360;
     text.style.color = `hsl(${hue}, 80%, 60%)`;
 });
 </script>
