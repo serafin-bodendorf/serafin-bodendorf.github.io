@@ -11,7 +11,7 @@ keywords: ""
 
 Serafin entdeckt die weite Welt der Webframeworks! 
 
-
+<!--more-->
 
 <section>
     {% capture my_markdown %}
