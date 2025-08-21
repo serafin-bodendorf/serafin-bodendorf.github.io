@@ -19,13 +19,13 @@ Serafin entdeckt die weite Welt der Webframeworks!
 ## TLDR (die 'Hard Facts')
 
 Ich verwende...
-- GitHub Pages, um die Seite zu hosten
-- Jekyll als Static Site Generator
-- Markdown, um Blogposts zu verfassen
-- Simple.css als Basis für mein Styling
-- VSCodium mit dem Plugin Frontmatter, um Posts und Pages zu erstellen und zu verwalten
+- [GitHub Pages](https://docs.github.com/de/pages), um die Seite zu hosten
+- [Jekyll](https://jekyllrb.com/) als Static Site Generator
+- [Markdown](https://de.wikipedia.org/wiki/Markdown), um Blogposts zu verfassen
+- [Simple.css](https://simplecss.org/) als Basis für mein Styling
+- [VSCodium](https://vscodium.com/) mit dem Plugin [Frontmatter](https://frontmatter.codes/), um Posts und Pages zu erstellen und zu verwalten
 
-Wenn du wissen willst, was das alles bedeutet oder warum ich genau das verwende, ließ weiter.
+Wenn du wissen willst, was das alles bedeutet oder warum ich genau das verwende, ließ weiter...
 
     {% endcapture %}
 
@@ -34,20 +34,11 @@ Wenn du wissen willst, was das alles bedeutet oder warum ich genau das verwende,
 
 Ich habe schon länger mit der Idee gespielt, [einen Blog zu starten]({% post_url 2025-08-18-warum-bloggen %}), aber war mir bei der technischen Umsetzung immer unsicher. Es gibt eine riesige Welt an verschiedenen Frameworks und Plattformen, von denen manche viel zu begrenzend sind und andere wieder viel zu viele Features haben, die ich nicht brauche.
 
-### Was ich brauche:
-- Einfaches, unkompliziertes und günstiges Webhosting
-- Gestaltungsfreiheit und Kontrolle über die Website (eigenes HTML, CSS und JavaScript)
-- Einfaches und flexibles Erstellen von Blogposts, am besten mit Markdown
-- Unterstützung einer Template-Sprache wie Liquid
+Jetzt habe ich das Gefühl, dass ich für meine konkreten Bedürfnisse das perfekte Setup gefunden habe. Nicht übermäßig kompliziert mit einem angenehmen Workflow für "Standart"-Blogposts, aber trotzdem flexibel genug, um alles zuzulassen, was ich machen will.
 
-### Was ich nicht brauche:
-- Eine dynamische Website
-- Einbindung von Werbung
-- Onlineshop
-- Analytics
-- usw.
+In diesem Blogpost möchte ich einen Überblick geben über alle Tools, die ich zum Betreiben dieser Seite verwende – wofür sie da sind, wie ich sie verwende und warum ich sie mag. Also egal, ob du nach Orientierung für deinen eigenen Blog suchst oder einfach nur neugierig bist, kannst du hoffentlich etwas mitnehmen.
 
-Ich habe das Gefühl, dass ich für meine konkreten Bedürfnisse das perfekte Setup gefunden habe. Nicht übermäßig kompliziert mit einem angenehmen Workflow für "Standart"-Blogposts, aber trotzdem flexibel genug, um alles zuzulassen, was ich machen will.
+Behalte aber natürlich auch im Kopf, dass das hier auch mein erster Blog ist. Ich habe also keine Ahnung, ob das hier *das beste Setup* ist, ich weiß nur, dass es für mich bisher sehr gut funktioniert.
 
 ## Die Website wohnt auf GitHub Pages
 
@@ -57,11 +48,11 @@ Damit du `serafinsblog.de` in die Adresszeile deines Browsers kannst und diese W
 
 2. Dein Computer verbindet sich mit dem Server, zu dem die IP-Adresse gehört, und nachdem sie sich die Hände geschüttelt haben, bittet er ihn, mal die gesuchte Seite rauszurücken.
 
-3. Der Server kramt die angeforderte HTML-Datei heraus und wenn dabei nichts schief geht, schickt er sie deinem Computer zurück und der kann sie dann auf den Bildschirm pinseln. (Oft geht das danach auch noch ein paar mal hin und her, um z.B. Bilder Stylesheets, die in separaten Dateien gespeichert sind, nachzuladen.)
+3. Der Server kramt die angeforderte HTML-Datei heraus und [wenn dabei nichts schief geht](https://youtu.be/aqsEa1P8iPQ?si=JCJ_SBEpKuBg98L1), schickt er sie deinem Computer zurück und der kann sie dann auf den Bildschirm pinseln. (Oft geht das danach auch noch ein paar mal hin und her, um z.B. Bilder Stylesheets, die in separaten Dateien gespeichert sind, nachzuladen.)
 
 Ich brauche also einen Server, der jederzeit meine Seite losschicken kann, und einen Eintrag im DNS, der auf diesen Server verweist. Die Domain serafinsblog.de habe ich relativ günstig bei Ionos bekommen – da gibt es aber auch jede Menge anderer Anbieter, die wahrscheinlich genau so gut sind. Über Ionos kann ich jetzt was immer ich will unter meiner Domain ins DNS Eintragen.
 
-Interessanter wird es beim Host, also dem Server, auf dem meine Seite gespeichert ist. Das kann normalerweise schon ein bisschen was kosten – evtl. mehr, als ich für so ein kleines Hobby-Projekt ausgeben wollen würde. Aber dann habe ich erfahren, dass GitHub kostenloses Hosting im kleinen Rahmen anbietet. Natürlich gibt es einige Begrenzungen, man kann nicht das nächste Amazon auf deren Servern aufbauen, aber für einen Blog wie diesen ist es perfekt geeignet!
+Interessanter wird es beim Host, also dem Server, auf dem meine Seite gespeichert ist. Das kann normalerweise schon ein bisschen was kosten – evtl. mehr, als ich für so ein kleines Hobby-Projekt ausgeben wollen würde. Aber dann habe ich erfahren, [dass GitHub kostenloses Hosting im kleinen Rahmen anbietet](https://docs.github.com/de/pages). Natürlich gibt es einige Begrenzungen, man kann nicht das nächste Amazon auf deren Servern aufbauen, aber für einen Blog wie diesen ist es perfekt geeignet!
 
 GitHub ist ja eigentlich eine Plattform für die Verwaltung von Code, besonders in Teams. Die gleiche Infrastruktur lässt sich aber auch ganz gut verwenden, um eine Website zu verwalten. Ein "Nachteil" ist, dass ich ein öffentliches Repository verwenden muss, das heißt, [jeder kann meinen hässlichen Code sehen](https://github.com/serafin-bodendorf/serafin-bodendorf.github.io). Das macht mir letztendlich aber nicht viel aus – ich habe nichts zu verstecken! Und wer weiß, vielleicht habe ich an genau dieser Stelle ja eine geheime Nachricht versteckt, die man nur im Quelltext sehen kann...
 
@@ -91,7 +82,7 @@ Der einfachste Weg, eine Website zu bauen, ist, einfach "per Hand" alle HTML Dat
 
 Sagen wir zum Beispiel, du hast schon 20 Seiten erstellt. Alle Seiten haben einen Header, auf dem dein Name steht. Plötzlich fällt dir auf, dass dein eigener Name im Header auf JEDER EINZELNEN SEITE FALSCH GESCHRIEBEN IST. Jetzt musst du alle 20 Seiten einzeln öffnen und 20 mal den Typo korrigieren.
 
-Oder sagen wir, du willst am Ende deiner Blogposts immer eine Liste mit deinen fünf neuesten Posts haben. Jetzt musst du JEDES MAL, WENN DU EINEN NEUEN POST SCHREIBST, JEDEN BISHERIGEN POST ÖFFNEN UND DIE LISTE AKTUALISIEREN! Entschuldigung fürs Schreien, dieses Thema macht mich einfach emotional.
+Oder sagen wir, du willst am Ende deiner Blogposts immer eine Liste mit deinen fünf neuesten Posts haben. Jetzt musst du JEDES MAL, WENN DU EINEN NEUEN POST SCHREIBST, JEDEN BISHERIGEN POST ÖFFNEN UND DIE LISTE AKTUALISIEREN! Entschuldigung fürs laut werden, dieses Thema macht mich einfach emotional.
 
 Aber es gibt für all das eine bessere Lösung: Einen [Static Site Generator](https://de.wikipedia.org/wiki/Statische_Webseite#Statische-Website-Generatoren) wie [Jekyll](https://jekyllrb.com/) (das ist der, den ich verwende).
 
@@ -120,9 +111,9 @@ Nach dem gleichen Prinzip lassen sich auch komplexere Aufgaben lösen, zum Beisp
     <a href="{{ '/posts' | relative_url }}" class="button">→ Alle Posts</a>
 </section> {% endraw %} {% endhighlight %}
 
-Nach all diesen Anweisungen baut Jekyll also einen Haufen HTML-Dateien und verpackt das alles zusammen mit sonstigen relevanten Dateien (Bilder, Stylesheets, JavaScript-Dateien, Schriftarten, ...) in ein Ordnersystem. Die entstandenen Dateien liegen dann auf dem Server bereit, bis sie abgerufen werden.
+Nach all diesen Anweisungen baut Jekyll also einen Haufen HTML-Dateien und verpackt das alles zusammen mit sonstigen relevanten Dateien (Bilder, Stylesheets, JavaScript-Dateien, Schriftarten, ...) in ein Ordnersystem. Die entstandenen Dateien können dann auf einen Server hochgeladen werden (GitHub macht das automatisch) und werden auf Anfrage verschickt.
 
-Im Gegensatz zu statischen Webseiten gibt es übrigens auch [dynamische Webseiten](https://de.wikipedia.org/wiki/Webseite#Dynamische_Webseiten), bei denen das HTML für jede Anfrage neu generiert werden kann. Wenn ich zum Beispiel auf Google nach dem Emu War suche (was man übrigens mal machen sollte), dann hat Google die Seite mit den Ergebnissen nicht schon bei sich auf dem Server herumliegen. Sie wird basierend auf meiner Anfrage extra zusammengestellt und mir als HTML geschickt. So etwas kann ein SSG wie Jekyll also nicht.
+Im Gegensatz zu statischen Webseiten gibt es übrigens auch [dynamische Webseiten](https://de.wikipedia.org/wiki/Webseite#Dynamische_Webseiten), bei denen das HTML für jede Anfrage neu generiert werden kann. Wenn ich zum Beispiel auf Google nach dem *Emu War* suche (was man übrigens mal machen sollte), dann hat Google die Seite mit den Ergebnissen ja nicht schon bei sich auf dem Server herumliegen. Sie wird basierend auf meiner Anfrage extra zusammengestellt und mir als HTML geschickt. So etwas kann ein SSG wie Jekyll also nicht, aber für einen Blog wie diesen wäre das auch Overkill.
 
 Jekyll hat aber noch eine weitere Funktion, die mir fast genauso wichtig ist: Es ist auf das Arbeiten mit Markdown ausgelegt.
 
@@ -184,29 +175,31 @@ Weil Markdown so einfach zu schreiben ist, brauche ich auch gar nicht zwingend i
 
 ## Simple.css macht alles schick!
 
-Doch auch das beste Markup bringt nichts ohne gutes Styling! Wenn HTML und Markdown sagen, "Das ist eine Überschrift", dann kann der Browser damit erstmal nichts anfangen. Bzw. er rendert es in einem hässlichen Non-Design:
+Doch auch das beste Markup bringt nichts ohne gutes Styling! Wenn HTML und Markdown sagen, "Das ist eine Überschrift", dann kann der Browser damit erstmal nichts anfangen. Bzw. er rendert es in einem hässlichen Non-Design.
+
+*Dieser Button zeigt, wie dein Browser reines, nicht gestyletes HTML anzeigt:*
 
 <button id="toggleStyles">Stylesheets deaktivieren</button>
 
-Deswegen braucht man sogenannte *Stylesheets*, um zu definieren, wie all die Elemente aussehen sollen. Eine Möglichkeit wäre natürlich, so ein Stylesheet von Grund auf selbst zu schreiben. Aber es gibt auch eine einfachere und effizientere Methode. 
+Deswegen braucht man sogenannte *[Stylesheets](https://de.wikipedia.org/wiki/Stylesheet-Sprache)*, um zu definieren, wie all die Elemente aussehen sollen. Eine Möglichkeit wäre natürlich, so ein Stylesheet von Grund auf selbst zu schreiben. Aber warum das Rad neu erfinden, wenn es auch anders geht? 
 
-[Simple.css](https://simplecss.org/) ist ein einfaches CSS Framework – wer hätte das gedacht – das vor allem darauf ausgelegt ist, Fließtexte wie diesen hier gut aussehen zu lassen. Im Grunde ist es einfach ein langes, umfassendes Stylesheet. Es liefert ein grundlegendes, sinnvolles Styling für alle HTML Tags und ist dabei noch gut genug überblickbar, dass es sich auch leicht personalisieren lässt.
+[Simple.css](https://simplecss.org/) ist ein einfaches CSS Framework – wer hätte das gedacht – das vor allem darauf ausgelegt ist, Fließtexte wie diesen hier gut aussehen zu lassen. Im Grunde ist es einfach ein langes, umfassendes Stylesheet. Es liefert ein grundlegendes, sinnvolles Styling für alle HTML Tags und ist gleichzeitig noch übersichtlich genug, dass es sich leicht personalisieren lässt.
 
-Aktuell lade ich immer zuerst Simple.css und dann meine eigenen Stylesheets, die teilweise die Regeln von Simple.css überschreiben und teilweise neue hinzufügen. So benutze ich zum Beispiel die Schriftart [Satoshi](https://www.fontshare.com/fonts/satoshi), meinen eigenen Header und mein eigenes Farbschema, und es gibt noch viele kleine Details, die ich manuell angepasst habe.
+Aktuell lade ich vom HTML aus immer zuerst Simple.css und dann meine eigenen Stylesheets. Dadurch können sie sowohl Regeln von Simple.css überschreiben als auch neue hinzufügen. Das ermöglicht es mir, der seite meinen eigenen visuellen Stil zu verpassen, ohne alles selber machen zu müssen. Ich benutze zum Beispiel die Schriftart [Satoshi](https://www.fontshare.com/fonts/satoshi), meinen eigenes Header-Design und mein eigenes Farbschema, und es gibt noch viele kleine Details, die ich manuell angepasst habe.
 
 Diese Lösung ist natürlich etwas hacky, aber fürs erste funktioniert sie. Langfristig wäre es wahrscheinlich die elegantere Lösung, Simple.css selbst herunterzuladen und direkt zu manipulieren, anstatt es teilweise mit einem zweiten Stylesheet wieder aushebeln. Aber das ist ein Projekt für die Zukunft.
 
 ## Frontmatter gibt den Überblick
 
-Ich tippe diesen Blogpost gerade in [VSCodium](https://vscodium.com/) (der ent-Microsoft-isierten Open Source Variante von Visual Studio Code). Da VSCode ist ursprünglich ein fancy Texteditor, der mit der Zeit zu einer integrierten Entwicklungsumgebung herangewachsen ist. Das ist großartig zum Programmieren der Website, aber nicht unbedingt darauf ausgelegt, den Überblick über einen Blog zu behalten.
+Ich tippe diesen Blogpost gerade in [VSCodium](https://vscodium.com/) (der ent-Microsoft-isierten Open Source Variante von Visual Studio Code). Visual Studio Code ist ursprünglich ein fancy Texteditor, der mit der Zeit zu einer [integrierten Entwicklungsumgebung](https://de.wikipedia.org/wiki/Integrierte_Entwicklungsumgebung) herangewachsen ist (mehr oder weniger). Das ist großartig zum Programmieren der Website, aber nicht unbedingt darauf ausgelegt, den Überblick über einen Blog zu behalten.
 
 Deshalb benutze ich ein Plugin namens [Frontmatter](https://frontmatter.codes/). Dieses bringt einen Teil der Funktionalität eines Content Management Systems wie z.B. Wordpress direkt nach VSCode. Konkret hilft es dabei, die Metadaten der einzelnen Posts richtig zu strukturieren, schnell und einfach einen lokalen Server zu starten und den Überblick über alle Posts zu behalten.
 
-Ehrlich gesagt ist von all den Tools, die ich heute erwähnt habe, Frontmatter für mich das unwichtigste. Es ist zwar ganz hilfreich, ich würde aber auch ohne zurecht kommen.
+Ehrlich gesagt ist von all den Tools, die ich hier erwähnt habe, Frontmatter für mich das unwichtigste. Es ist zwar ganz hilfreich, ich würde aber auch ohne zurecht kommen.
 
 ## Jetzt kann ich in Frieden ruhen
 
-Die Kombination aus all diesen Tools ergeben ein Setup, das nicht nur funktioniert, sondern mir unglaublich viel Spaß macht (wie man vielleicht an der Menge an Blogposts in den letzten Tagen merkt). Einen Blogpost zu erstellen ist schnell, einfach und lässt sich von überall aus machen. Gleichzeitig kann ich mich aber auch stundenlang hinsetzten und sprechende Buttons programmieren (foreshadowing?). Ich kann alles so konfigurieren, wie ich will, und muss nicht gegen eine Plattform oder ein Content Management System finden.
+Die Kombination aus all diesen Tools ergeben ein Setup, das nicht nur funktioniert, sondern mir unglaublich viel Spaß macht (wie man vielleicht an der Menge an Blogposts in den letzten Tagen merkt). Einen Blogpost zu erstellen ist schnell, einfach und lässt sich von überall aus machen. Gleichzeitig kann ich mich aber auch stundenlang hinsetzten und sprechende Buttons programmieren (foreshadowing?). Ich kann alles so konfigurieren, wie ich will, und muss nicht gegen eine Plattform oder ein Content Management System kämpfen.
 
 Und natürlich funktioniert das Ganze auch nur so gut, weil es eine aktive Community um diese Tools gibt und man bei Fragen zahllose Ressourcen findet, die einem weiterhelfen. Generell könnte unser gesamtes digitales Ökosystem heute so nicht existieren, wenn es nicht so viele Communities und Open Source Projekte gäbe, die– An der Stelle muss ich mich leider selber abschneiden, bevor ich gleich den einen weiteren Blogpost an Text hier dran hänge.
 
