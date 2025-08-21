@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Installing Webfonts | Serafin Bodendorf</title>
+    <!-- Use simple.css as a base -->
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.css">
+    <!-- import fonts -->
+    <link rel="stylesheet" href="/assets/fonts/Satoshi/css/satoshi.css">
+    <!-- custom Sass-->
+    <link rel="stylesheet" href="/assets/stylesheets/main.css">
+  </head>
+  <body>
+    <header>
+  <h1><a href="/"> SERAFINS<span class="thin"> BLOG</span></a></h1>
+
+  <!-- Hamburger Button -->
+  <button id="menu-button" class="menu-icon" aria-expanded="false" aria-controls="menu">
+    ☰
+  </button>
+
+  <nav class='menu' id="menu">
+    <a href="/">Home</a>
+    <a href="/posts">Alle Posts</a>
+    <a href="/kanaele">Kanäle</a>
+  </nav>
+</header>
+<script src="/assets/scripts/burger_menu.js"></script>
+
+
+    <main>
+      <h1 id="installing-webfonts">Installing Webfonts</h1>
+<p>Follow these simple Steps.</p>
+
+<h2 id="1">1.</h2>
+<p>Put <code class="language-plaintext highlighter-rouge">satoshi/</code> Folder into a Folder called <code class="language-plaintext highlighter-rouge">fonts/</code>.</p>
+
+<h2 id="2">2.</h2>
+<p>Put <code class="language-plaintext highlighter-rouge">satoshi.css</code> into your <code class="language-plaintext highlighter-rouge">css/</code> Folder.</p>
+
+<h2 id="3-optional">3. (Optional)</h2>
+<p>You may adapt the <code class="language-plaintext highlighter-rouge">url('path')</code> in <code class="language-plaintext highlighter-rouge">satoshi.css</code> depends on your Website Filesystem.</p>
+
+<h2 id="4">4.</h2>
+<p>Import <code class="language-plaintext highlighter-rouge">satoshi.css</code> at the top of you main Stylesheet.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@import url('satoshi.css');
+</code></pre></div></div>
+
+<h2 id="5">5.</h2>
+<p>You are now ready to use the following Rules in your CSS to specify each Font Style:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>font-family: Satoshi-Light;
+font-family: Satoshi-LightItalic;
+font-family: Satoshi-Regular;
+font-family: Satoshi-Italic;
+font-family: Satoshi-Medium;
+font-family: Satoshi-MediumItalic;
+font-family: Satoshi-Bold;
+font-family: Satoshi-BoldItalic;
+font-family: Satoshi-Black;
+font-family: Satoshi-BlackItalic;
+font-family: Satoshi-Variable;
+font-family: Satoshi-VariableItalic;
+
+</code></pre></div></div>
+<h2 id="6-optional">6. (Optional)</h2>
+<p>Use <code class="language-plaintext highlighter-rouge">font-variation-settings</code> rule to controll axes of variable fonts:
+wght 900.0</p>
+
+<p>Available axes:
+‘wght’ (range from 300.0 to 900.0</p>
+
+
+    </main>
+
+    <footer>
+  <p>&copy; 2025 Serafin Bodendorf</p>
+</footer>
+
+  </body>
+</html>
