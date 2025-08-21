@@ -14,7 +14,7 @@
       "path": "[[workspace]]/_drafts"
     },
     {
-      "title": "posts",
+      "title": "_posts",
       "path": "[[workspace]]/_posts"
     }
   ],
@@ -63,8 +63,15 @@
           "title": "Categories",
           "name": "categories",
           "type": "categories"
+        },
+        {
+          "title": "layout",
+          "name": "layout",
+          "type": "string"
         }
       ]
     }
-  ]
+  ],
+  "frontMatter.website.host": "serafin-bodendorf.github.io",
+  "frontMatter.git.enabled": true
 }
