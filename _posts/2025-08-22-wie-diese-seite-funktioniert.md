@@ -1,6 +1,6 @@
 ---
 title: Wie diese Seite funktioniert
-description: ""
+description: "Serafin entdeckt die weite Welt der Webframeworks!"
 date: 2025-08-21T10:21:26.711Z
 preview: ""
 tags: []

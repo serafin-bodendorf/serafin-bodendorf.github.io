@@ -22,6 +22,8 @@ diesen Blog starte, ist aber auch nicht, weil ich die
 Massen erreichen will, sondern einfach, weil ich mehr 
 schreiben will.
 
+<!--more-->
+
 Diese Seite agiert als ein Archiv von kleinen Aufsätzen,
 Geschichten und sonstigen Texten, die ich einfach gerne 
 mal verfassen wollte. Außerdem möchte ich hier meine
