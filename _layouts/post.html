@@ -4,7 +4,9 @@ layout: default
 <article>
   {% include back-button.html %}
   <h1>{{ page.title }}</h1>
+  {% unless page.hide-description %}
   <p class="post-description">{{ page.description }}</p>
+  {% endunless %}
   <p class="post-meta">{{ page.date | date: "%d. %B %Y" }}</p>
   <div class="post-content">
     {{ content }}

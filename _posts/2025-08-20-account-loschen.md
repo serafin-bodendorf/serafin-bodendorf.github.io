@@ -1,10 +1,20 @@
 ---
 title: Account Löschen
-description: "Eine Kurzgeschichte über deine Social Media Accounts und dich."
+description: Eine Kurzgeschichte über deine Social Media Accounts und dich.
 date: 2025-08-20T03:00:08.278Z
-preview: "Eine Kurzgeschichte über deine Social Media Accounts und dich."
-tags: ["Social Media", "Internet"]
-categories: ["Kurzgeschichte"]
+preview: null
+tags:
+    - Social Media
+    - Internet
+categories:
+    - Kurzgeschichte
+keywords:
+    - Comedy
+    - Humor
+    - Kurzgeschichte
+    - Social Media
+    - Twitter
+    - Identität
 ---
 
 Mein Mauszeiger schwebt über der Schaltfläche. Ich zögere kurz, dann klicke ich auf „Account löschen“. Ich benutze Dwitter eh schon seit Monaten nicht mehr – es wird Zeit, die Scheidung offiziell zu machen.

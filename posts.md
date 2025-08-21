@@ -11,7 +11,7 @@ title: Alle Posts
             <li>
                 <h3>{{ post.title }}</h3>
                 <div class="post-meta">{{ post.date | date: "%d. %B %Y" }}</div>
-                <div class="post-preview">{{ post.preview }}</div>
+                <div class="post-description">{{ post.description }}</div>
             </li>
         </a>
   {% endfor %}

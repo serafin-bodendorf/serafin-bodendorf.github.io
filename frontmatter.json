@@ -14,7 +14,7 @@
       "path": "[[workspace]]/_drafts"
     },
     {
-      "title": "posts",
+      "title": "_posts",
       "path": "[[workspace]]/_posts"
     }
   ],
@@ -63,8 +63,30 @@
           "title": "Categories",
           "name": "categories",
           "type": "categories"
+        },
+        {
+          "title": "layout",
+          "name": "layout",
+          "type": "string"
+        },
+        {
+          "title": "hide-description",
+          "name": "hide-description",
+          "type": "boolean"
+        },
+        {
+          "title": "keywords",
+          "name": "keywords",
+          "type": "choice",
+          "choices": [
+            "Gedicht",
+            "Lautgedicht",
+            "Lyrik"
+          ]
         }
       ]
     }
-  ]
+  ],
+  "frontMatter.website.host": "serafin-bodendorf.github.io",
+  "frontMatter.git.enabled": true
 }
