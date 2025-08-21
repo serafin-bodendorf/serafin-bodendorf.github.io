@@ -4,13 +4,21 @@ layout: default
 <article>
   {% include back-button.html %}
   <h1>{{ page.title }}</h1>
-  {% unless page.hide-description %}
-  <p class="post-description">{{ page.description }}</p>
+  {% unless page.hide-excerpt %}
+  <p class="post-description">{{ page.excerpt | replace_first: '<p>', '' | replace: '</p>', '' }}</p>
   {% endunless %}
   <p class="post-meta">{{ page.date | date: "%d. %B %Y" }}</p>
+
+  {% unless page.hide-excerpt %}
+  <div class="post-content">
+    {{ content | replace_first: page.excerpt, "" }}
+  </div>
+  {% else %}
   <div class="post-content">
     {{ content }}
   </div>
+  {% endunless %}
+
   {% include new_posts.html %}
   {% include back-button.html %}
 </article>

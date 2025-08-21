@@ -17,6 +17,8 @@ keywords:
 slug: schreib-deinen-blogpost-doch-selber
 ---
 
+Ich mach heute frei!
+
 <textarea id="user-input" name="user-input" rows="20">
 Ich habe das Gefühl, dass die Arbeitsteilung in unserer Beziehung komplett ungleich ist. Ich schreibe mir hier ständig die Seele aus dem Leib und du hockst nur da und ließt.
 

@@ -1,8 +1,8 @@
 ---
 title: Warum bloggen?
-description: "Schreibt 2025 Anno Domini überhaupt noch jemand Blogs? Ließt 2025 Anno Domini überhaupt noch jemand Blogs? Ehrlich gesagt, non habeo ideam! Der Grund, warum ich diesen Blog starte, ist aber auch nicht, weil ich die Massen erreichen will, sondern einfach, weil ich mehr schreiben will."
+description: Schreibt 2025 Anno Domini überhaupt noch jemand Blogs? Ließt 2025 Anno Domini überhaupt noch jemand Blogs?
 date: 2025-08-18T20:31:11.274Z
-preview:
+preview: null
 tags: []
 categories:
     - Projekte
@@ -14,6 +14,13 @@ keywords:
     - Website
     - Writing
 ---
+
+Schreibt 2025 Anno Domini überhaupt noch jemand Blogs?
+Ließt 2025 Anno Domini überhaupt noch jemand Blogs? 
+Ehrlich gesagt, non habeo ideam! Der Grund, warum ich 
+diesen Blog starte, ist aber auch nicht, weil ich die 
+Massen erreichen will, sondern einfach, weil ich mehr 
+schreiben will.
 
 Diese Seite agiert als ein Archiv von kleinen Aufsätzen,
 Geschichten und sonstigen Texten, die ich einfach gerne 
