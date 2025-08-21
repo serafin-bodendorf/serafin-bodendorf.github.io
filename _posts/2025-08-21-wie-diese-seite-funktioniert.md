@@ -188,8 +188,29 @@ Doch auch das beste Markup bringt nichts ohne gutes Styling! Wenn HTML und Markd
 
 <button id="toggleStyles">Stylesheets deaktivieren</button>
 
+Deswegen braucht man sogenannte *Stylesheets*, um zu definieren, wie all die Elemente aussehen sollen. Eine Möglichkeit wäre natürlich, so ein Stylesheet von Grund auf selbst zu schreiben. Aber es gibt auch eine einfachere und effizientere Methode. 
 
+[Simple.css](https://simplecss.org/) ist ein einfaches CSS Framework – wer hätte das gedacht – das vor allem darauf ausgelegt ist, Fließtexte wie diesen hier gut aussehen zu lassen. Im Grunde ist es einfach ein langes, umfassendes Stylesheet. Es liefert ein grundlegendes, sinnvolles Styling für alle HTML Tags und ist dabei noch gut genug überblickbar, dass es sich auch leicht personalisieren lässt.
 
+Aktuell lade ich immer zuerst Simple.css und dann meine eigenen Stylesheets, die teilweise die Regeln von Simple.css überschreiben und teilweise neue hinzufügen. So benutze ich zum Beispiel die Schriftart [Satoshi](https://www.fontshare.com/fonts/satoshi), meinen eigenen Header und mein eigenes Farbschema, und es gibt noch viele kleine Details, die ich manuell angepasst habe.
+
+Diese Lösung ist natürlich etwas hacky, aber fürs erste funktioniert sie. Langfristig wäre es wahrscheinlich die elegantere Lösung, Simple.css selbst herunterzuladen und direkt zu manipulieren, anstatt es teilweise mit einem zweiten Stylesheet wieder aushebeln. Aber das ist ein Projekt für die Zukunft.
+
+## Frontmatter gibt den Überblick
+
+Ich tippe diesen Blogpost gerade in [VSCodium](https://vscodium.com/) (der ent-Microsoft-isierten Open Source Variante von Visual Studio Code). Da VSCode ist ursprünglich ein fancy Texteditor, der mit der Zeit zu einer integrierten Entwicklungsumgebung herangewachsen ist. Das ist großartig zum Programmieren der Website, aber nicht unbedingt darauf ausgelegt, den Überblick über einen Blog zu behalten.
+
+Deshalb benutze ich ein Plugin namens [Frontmatter](https://frontmatter.codes/). Dieses bringt einen Teil der Funktionalität eines Content Management Systems wie z.B. Wordpress direkt nach VSCode. Konkret hilft es dabei, die Metadaten der einzelnen Posts richtig zu strukturieren, schnell und einfach einen lokalen Server zu starten und den Überblick über alle Posts zu behalten.
+
+Ehrlich gesagt ist von all den Tools, die ich heute erwähnt habe, Frontmatter für mich das unwichtigste. Es ist zwar ganz hilfreich, ich würde aber auch ohne zurecht kommen.
+
+## Jetzt kann ich in Frieden ruhen
+
+Die Kombination aus all diesen Tools ergeben ein Setup, das nicht nur funktioniert, sondern mir unglaublich viel Spaß macht (wie man vielleicht an der Menge an Blogposts in den letzten Tagen merkt). Einen Blogpost zu erstellen ist schnell, einfach und lässt sich von überall aus machen. Gleichzeitig kann ich mich aber auch stundenlang hinsetzten und sprechende Buttons programmieren (foreshadowing?). Ich kann alles so konfigurieren, wie ich will, und muss nicht gegen eine Plattform oder ein Content Management System finden.
+
+Und natürlich funktioniert das Ganze auch nur so gut, weil es eine aktive Community um diese Tools gibt und man bei Fragen zahllose Ressourcen findet, die einem weiterhelfen. Generell könnte unser gesamtes digitales Ökosystem heute so nicht existieren, wenn es nicht so viele Communities und Open Source Projekte gäbe, die– An der Stelle muss ich mich leider selber abschneiden, bevor ich gleich den einen weiteren Blogpost an Text hier dran hänge.
+
+Ich bin mal gespannt, ob ich in Zukunft noch Makel an diesem System finde, die mir bisher noch nicht aufgefallen sind. Aber im Moment bin ich unglaublich zufrieden – und das nicht nur, weil ich den folgenden Abschnitt nicht per Hand aktualisieren muss:
 
 
 <script>
