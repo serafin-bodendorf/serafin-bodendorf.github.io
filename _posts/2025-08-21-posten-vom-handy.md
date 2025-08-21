@@ -6,6 +6,8 @@ categories: Projekte
 slug: posten-vom-handy
 ---
 
+Wenn du das hier liest, ist die Antwort wahrscheinlich ja.
+
 Okay, ehrlich gesagt weiß ich gar nicht wirklich, was ich hier schreiben soll.
 Das interessante an diesem Post ist ja auch nicht, was drin steht, sondern 
 wie er verfasst und veröffentlicht wurde — nämlich komplett von meinem Smartphone aus.
