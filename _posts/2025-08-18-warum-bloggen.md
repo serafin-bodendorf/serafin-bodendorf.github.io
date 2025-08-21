@@ -121,7 +121,7 @@ Ich weiß, ich habe gerade davon geredet, dass hier technisch
 alles möglich ist. Aber gleichzeitig braucht ein einfacher Blogpost
 auch nicht viel.
 
-``` Markdown
+{% highlight markdown %}
 So schaut der Markdown Quelltext aus, 
 in dem ich diesen Blogpost schreibe.
 Die Absätze sind einfach nur Text. 
@@ -131,7 +131,7 @@ machen will, geht das mit ein paar Sternchen.
 # Eine Überschrift mache ich mit einem Hashtag
 
 Und so weiter!
-```
+{% endhighlight %}
 
 Genau das finde ich eben das Coole an diesem Format.
 Ich habe technisch unbeschränkte Möglichkeiten, aber
