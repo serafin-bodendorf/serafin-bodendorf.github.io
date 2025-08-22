@@ -2,7 +2,7 @@
 layout: post
 title: Schreib deinen Blogpost doch selber!
 description: Ich mach heute frei!
-date: 2025-08-22T12:40:00.000Z
+date: 2025-08-22T10:40:00.000Z
 preview: null
 tags: []
 categories: [meta]
