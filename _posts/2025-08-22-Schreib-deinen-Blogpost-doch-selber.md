@@ -22,7 +22,7 @@ Ich mach heute frei!
 <!--more-->
 
 <textarea id="user-input" name="user-input" rows="20">
-Ich habe das Gefühl, dass die Arbeitsteilung in unserer Beziehung komplett ungleich ist. Ich schreibe mir hier ständig die Seele aus dem Leib und du hockst nur da und ließt.
+Ich habe das Gefühl, dass die Arbeitsteilung in unserer Beziehung komplett ungleich ist. Ich schreibe mir hier ständig die Seele aus dem Leib und du hockst nur da und liest.
 
 Schluss damit! Hier hast du eine Textbox, da kannst du dir deinen Blogpost jetzt einfach selber schreiben. Was du damit machst, ist mir egal, ich speichere oder veröffentliche ihn jedenfalls nicht!
 </textarea>
