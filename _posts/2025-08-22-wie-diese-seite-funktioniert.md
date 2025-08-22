@@ -48,7 +48,7 @@ Damit du `serafinsblog.de` in die Adresszeile deines Browsers kannst und diese W
 
 2. Dein Computer verbindet sich mit dem Server, zu dem die IP-Adresse gehört, und nachdem sie sich die Hände geschüttelt haben, bittet er ihn, mal die gesuchte Seite rauszurücken.
 
-3. Der Server kramt die angeforderte HTML-Datei heraus und [wenn dabei nichts schief geht](https://youtu.be/aqsEa1P8iPQ?si=JCJ_SBEpKuBg98L1), schickt er sie deinem Computer zurück und der kann sie dann auf den Bildschirm pinseln. (Oft geht das danach auch noch ein paar mal hin und her, um z.B. Bilder Stylesheets, die in separaten Dateien gespeichert sind, nachzuladen.)
+3. Der Server kramt die angeforderte HTML-Datei heraus und [wenn dabei nichts schief geht](https://youtu.be/aqsEa1P8iPQ?si=JCJ_SBEpKuBg98L1), schickt er sie deinem Computer zurück und der kann sie dann auf den Bildschirm pinseln. (Oft geht das danach auch noch ein paar mal hin und her, um z.B. Bilder, Stylesheets oder JavaScript Programme, die in separaten Dateien gespeichert sind, nachzuladen.)
 
 Ich brauche also einen Server, der jederzeit meine Seite losschicken kann, und einen Eintrag im DNS, der auf diesen Server verweist. Die Domain serafinsblog.de habe ich relativ günstig bei Ionos bekommen – da gibt es aber auch jede Menge anderer Anbieter, die wahrscheinlich genau so gut sind. Über Ionos kann ich jetzt was immer ich will unter meiner Domain ins DNS Eintragen.
 
@@ -199,7 +199,7 @@ Ehrlich gesagt ist von all den Tools, die ich hier erwähnt habe, Frontmatter f�
 
 ## Jetzt kann ich in Frieden ruhen
 
-Die Kombination aus all diesen Tools ergeben ein Setup, das nicht nur funktioniert, sondern mir unglaublich viel Spaß macht (wie man vielleicht an der Menge an Blogposts in den letzten Tagen merkt). Einen Blogpost zu erstellen ist schnell, einfach und lässt sich von überall aus machen. Gleichzeitig kann ich mich aber auch stundenlang hinsetzten und sprechende Buttons programmieren (foreshadowing?). Ich kann alles so konfigurieren, wie ich will, und muss nicht gegen eine Plattform oder ein Content Management System kämpfen.
+Die Kombination aus all diesen Tools ergibt ein Setup, das nicht nur funktioniert, sondern mir unglaublich viel Spaß macht (wie man vielleicht an der Menge an Blogposts in den letzten Tagen merkt). Einen Blogpost zu erstellen ist schnell, einfach und lässt sich von überall aus machen. Gleichzeitig kann ich mich aber auch stundenlang hinsetzten und sprechende Buttons programmieren (foreshadowing?). Ich kann alles so konfigurieren, wie ich will, und muss nicht gegen eine Plattform oder ein Content Management System kämpfen.
 
 Und natürlich funktioniert das Ganze auch nur so gut, weil es eine aktive Community um diese Tools gibt und man bei Fragen zahllose Ressourcen findet, die einem weiterhelfen. Generell könnte unser gesamtes digitales Ökosystem heute so nicht existieren, wenn es nicht so viele Communities und Open Source Projekte gäbe, die– An der Stelle muss ich mich leider selber abschneiden, bevor ich gleich den einen weiteren Blogpost an Text hier dran hänge.
 
