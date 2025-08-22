@@ -29,4 +29,4 @@ Schluss damit! Hier hast du eine Textbox, da kannst du dir deinen Blogpost jetzt
 <button id="copy">Kopieren</button>
 <button id="delete">Löschen</button>
 
-<script src="{{ 'assets\scripts\copy-delete-buttons.js' | relative_url }}">
+<script src="{{ 'assets/scripts/copy-delete-buttons.js' | relative_url }}">
