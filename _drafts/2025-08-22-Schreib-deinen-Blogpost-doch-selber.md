@@ -2,10 +2,10 @@
 layout: post
 title: Schreib deinen Blogpost doch selber!
 description: Ich mach heute frei!
-date: 2025-08-22T10:00:00.000Z
+date: 2025-08-22T12:40:00.000Z
 preview: null
 tags: []
-categories: []
+categories: [meta]
 draft: true
 keywords:
     - humor
@@ -18,6 +18,8 @@ slug: schreib-deinen-blogpost-doch-selber
 ---
 
 Ich mach heute frei!
+
+<!--more-->
 
 <textarea id="user-input" name="user-input" rows="20">
 Ich habe das Gefühl, dass die Arbeitsteilung in unserer Beziehung komplett ungleich ist. Ich schreibe mir hier ständig die Seele aus dem Leib und du hockst nur da und ließt.
