@@ -8,7 +8,7 @@ layout: default
     {% unless page.hide-excerpt %}
         <p class="post-description">{{ page.excerpt | replace_first: '<p>', '' | replace: '</p>', '' }}</p>
     {% endunless %}
-    <p class="post-meta">{{ page.date | date: "%d. %B %Y" }}</p>
+    <p class="post-meta">{{ page.date | date: "%d. %B %Y" }} • {{page.categories}}</p>
 
     {% unless page.hide-excerpt %}
     <div class="post-content">

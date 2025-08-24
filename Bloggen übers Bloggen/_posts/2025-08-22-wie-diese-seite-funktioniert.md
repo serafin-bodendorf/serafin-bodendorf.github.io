@@ -4,7 +4,6 @@ description: "Serafin entdeckt die weite Welt der Webframeworks!"
 date: 2025-08-21T10:21:26.711Z
 preview: ""
 tags: []
-categories: ["Bloggen über's Bloggen"]
 hide-description: false
 keywords: ""
 ---
@@ -32,7 +31,7 @@ Wenn du wissen willst, was das alles bedeutet oder warum ich genau das verwende,
     {{ my_markdown | markdownify }}
 </section>
 
-Ich habe schon länger mit der Idee gespielt, [einen Blog zu starten]({% post_url 2025-08-18-warum-bloggen %}), aber war mir bei der technischen Umsetzung immer unsicher. Es gibt eine riesige Welt an verschiedenen Frameworks und Plattformen, von denen manche viel zu begrenzend sind und andere wieder viel zu viele Features haben, die ich nicht brauche.
+Ich habe schon länger mit der Idee gespielt, [einen Blog zu starten]({% post_url /Bloggen übers Bloggen/2025-08-18-warum-bloggen %}), aber war mir bei der technischen Umsetzung immer unsicher. Es gibt eine riesige Welt an verschiedenen Frameworks und Plattformen, von denen manche viel zu begrenzend sind und andere wieder viel zu viele Features haben, die ich nicht brauche.
 
 Jetzt habe ich das Gefühl, dass ich für meine konkreten Bedürfnisse das perfekte Setup gefunden habe. Nicht übermäßig kompliziert mit einem angenehmen Workflow für "Standart"-Blogposts, aber trotzdem flexibel genug, um alles zuzulassen, was ich machen will.
 
@@ -171,7 +170,7 @@ Das heißt nicht, dass HTML nicht auch seine Berechtigung hätte. Es ist perfekt
 
 Deswegen bin ich froh, dass man mit Jekyll komplett mühelos HTML und Markdown kombinieren kann. So liegt zum Beispiel das Template für meine Blogposts in HTML vor, die Texte selber schreibe ich aber in Markdown. Und wenn ich innerhalb eines Posts doch mal <span id="fancy-text">✨ etwas komplizierteres ✨</span> machen will, das mit Markdown nicht funktioniert, kann ich sogar innerhalb der Markdown-Datei einen Block HTML einfügen. 
 
-Weil Markdown so einfach zu schreiben ist, brauche ich auch gar nicht zwingend irgendwelche besondere Software und kann Blogposts sogar [vom Handy aus]({% post_url 2025-08-21-posten-vom-handy %}) schreiben und veröffentlichen. 
+Weil Markdown so einfach zu schreiben ist, brauche ich auch gar nicht zwingend irgendwelche besondere Software und kann Blogposts sogar [vom Handy aus]({% post_url /Bloggen übers Bloggen/2025-08-21-posten-vom-handy %}) schreiben und veröffentlichen. 
 
 ## Simple.css macht alles schick!
 

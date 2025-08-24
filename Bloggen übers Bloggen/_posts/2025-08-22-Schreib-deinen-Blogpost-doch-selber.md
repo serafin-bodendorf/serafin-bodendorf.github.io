@@ -6,7 +6,7 @@ date: 2025-08-22T10:40:00.000Z
 preview: null
 tags: []
 categories:
-    - Bloggen über's Bloggen
+    - Bloggen übers Bloggen
 draft: true
 keywords:
     - humor
