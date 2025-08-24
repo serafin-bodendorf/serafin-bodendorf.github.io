@@ -5,7 +5,8 @@ description: Ich mach heute frei!
 date: 2025-08-22T10:40:00.000Z
 preview: null
 tags: []
-categories: [meta]
+categories:
+    - Bloggen über's Bloggen
 draft: true
 keywords:
     - humor
