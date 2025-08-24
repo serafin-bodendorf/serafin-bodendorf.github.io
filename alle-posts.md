@@ -17,8 +17,8 @@ description: Alle Posts von Serafins Blog
             <li>
                 <h3>{{ post.title }}</h3>
                 
-                <div class="post-meta">{{ post.date | date: "%d. %B %Y" }}</div>
-                <div class="post-description">{{ custom_description }}</div>
+                <p class="post-meta">{{ post.date | date: "%d. %B %Y" }} • {{post.categories.first}}</p>
+                <p class="post-description">{{ custom_description }}</p>
             </li>
         </a>
   {% endfor %}
