@@ -9,14 +9,7 @@ markdown: kramdown
 permalink: /:slugified_categories/:slug
 excerpt_separator: "<!--more-->"
 
-# paginate: 10                # Pagination; will look into that another day -> https://jekyllrb.com/docs/pagination/
-# paginate_path: "/page:num/"
-
-kramdown:
-  input: GFM
-  hard_wrap: false
-  syntax_highlighter: rouge
-
+# Default-Werte
 defaults:
   - scope:
       path: ""
@@ -29,9 +22,28 @@ defaults:
     values:
       layout: "default"
 
+# Plugin-Konfiguration
+
+# paginate: 10                # Pagination; will look into that another day -> https://jekyllrb.com/docs/pagination/
+# paginate_path: "/page:num/"
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+
+jekyll-archives:
+  enabled: [categories]
+  layout: category
+  permalinks:
+    category: '/:name/'
+
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
   - tzinfo
+  - jekyll-archives

@@ -14,6 +14,7 @@ GEM
     eventmachine (1.2.7)
     ffi (1.17.2-x64-mingw-ucrt)
     ffi (1.17.2-x86_64-linux-gnu)
+    fiddle (1.1.6)
     forwardable-extended (2.6.0)
     google-protobuf (4.32.0-x64-mingw-ucrt)
       bigdecimal
@@ -43,6 +44,8 @@ GEM
       safe_yaml (~> 1.0)
       terminal-table (>= 1.8, < 4.0)
       webrick (~> 1.7)
+    jekyll-archives (2.3.0)
+      jekyll (>= 3.6, < 5.0)
     jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-paginate (1.1.0)
@@ -63,6 +66,7 @@ GEM
     listen (3.9.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
+    logger (1.6.6)
     mercenary (0.4.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
@@ -85,6 +89,7 @@ GEM
     tzinfo-data (1.2025.2)
       tzinfo (>= 1.0.0)
     unicode-display_width (2.6.0)
+    wdm (0.2.0)
     webrick (1.9.1)
 
 PLATFORMS
@@ -92,13 +97,17 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  fiddle
   jekyll (~> 4.3)
+  jekyll-archives
   jekyll-feed (~> 0.17)
   jekyll-paginate (~> 1.1)
   jekyll-seo-tag (~> 2.8)
   jekyll-sitemap (~> 1.4)
+  logger
   tzinfo (~> 2.0, >= 2.0.6)
   tzinfo-data
+  wdm (>= 0.1.0)
   webrick (~> 1.9, >= 1.9.1)
 
 BUNDLED WITH
