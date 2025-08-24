@@ -1,5 +1,5 @@
 {
     "[markdown]": {
     },
-    "frontMatter.panel.openOnSupportedFile": true
+    "frontMatter.panel.openOnSupportedFile": false
 }
