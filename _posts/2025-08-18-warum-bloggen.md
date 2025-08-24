@@ -5,7 +5,7 @@ date: 2025-08-18T20:31:11.274Z
 preview: null
 tags: []
 categories:
-    - Projekte
+    - Bloggen über's Bloggen
 keywords:
     - Blog
     - Bloggen

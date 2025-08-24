@@ -1,9 +1,36 @@
 # General
 title: Serafins Blog
 description: "Ersetzten Sie diese Platzhalterbeschreibung durch ihren eigenen Text. Wenn sie das vergessen, wäre es sehr peinlich!"
-url: "https://seafinsblog.de"
+url: "https://serafinsblog.de"
+timezone: Europe/Berlin
+
 markdown: kramdown
-permalink: pretty
+permalink: /:slugified_categories/:slug
 excerpt_separator: "<!--more-->"
+
+# paginate: 10                # Pagination; will look into that another day -> https://jekyllrb.com/docs/pagination/
+# paginate_path: "/page:num/"
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
 plugins:
+  - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - tzinfo
