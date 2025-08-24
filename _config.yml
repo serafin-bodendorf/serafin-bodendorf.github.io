@@ -2,6 +2,7 @@
 title: Serafins Blog
 description: "Ersetzten Sie diese Platzhalterbeschreibung durch ihren eigenen Text. Wenn sie das vergessen, wäre es sehr peinlich!"
 url: "https://serafinsblog.de"
+email: "mail@serafinsblog.de"
 timezone: Europe/Berlin
 
 markdown: kramdown
