@@ -4,7 +4,6 @@ description: "Serafin entdeckt die weite Welt der Webframeworks!"
 date: 2025-08-21T10:21:26.711Z
 preview: ""
 tags: []
-categories: ["Bloggen über's Bloggen"]
 hide-description: false
 keywords: ""
 ---

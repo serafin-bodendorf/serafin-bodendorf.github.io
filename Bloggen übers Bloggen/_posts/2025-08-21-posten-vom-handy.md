@@ -2,7 +2,7 @@
 title: Kann ich einen Blogpost komplett vom Handy veröffentlichen?
 description: Wenn du das hier liest, ist die Antwort wahrscheinlich ja.
 date: 2025-08-21T00:00:00.000Z
-categories: Bloggen über's Bloggen
+category: "Bloggen übers Bloggen"
 slug: posten-vom-handy
 ---
 
