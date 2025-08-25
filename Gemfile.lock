@@ -18,6 +18,7 @@ GEM
     ffi (1.17.2-arm-linux-gnu)
     ffi (1.17.2-arm-linux-musl)
     ffi (1.17.2-arm64-darwin)
+    ffi (1.17.2-x64-mingw-ucrt)
     ffi (1.17.2-x86-linux-gnu)
     ffi (1.17.2-x86-linux-musl)
     ffi (1.17.2-x86_64-darwin)
@@ -35,6 +36,9 @@ GEM
       bigdecimal
       rake (>= 13)
     google-protobuf (4.32.0-arm64-darwin)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.32.0-x64-mingw-ucrt)
       bigdecimal
       rake (>= 13)
     google-protobuf (4.32.0-x86-linux-gnu)
@@ -131,6 +135,8 @@ GEM
       google-protobuf (~> 4.31)
     sass-embedded (1.90.0-riscv64-linux-musl)
       google-protobuf (~> 4.31)
+    sass-embedded (1.90.0-x64-mingw-ucrt)
+      google-protobuf (~> 4.31)
     sass-embedded (1.90.0-x86_64-darwin)
       google-protobuf (~> 4.31)
     sass-embedded (1.90.0-x86_64-linux-android)
@@ -146,6 +152,7 @@ GEM
     tzinfo-data (1.2025.2)
       tzinfo (>= 1.0.0)
     unicode-display_width (2.6.0)
+    wdm (0.2.0)
     webrick (1.9.1)
 
 PLATFORMS
@@ -161,7 +168,7 @@ PLATFORMS
   riscv64-linux-android
   riscv64-linux-gnu
   riscv64-linux-musl
-  ruby
+  x64-mingw-ucrt
   x86-linux-gnu
   x86-linux-musl
   x86_64-darwin
@@ -180,6 +187,7 @@ DEPENDENCIES
   logger
   tzinfo (~> 2.0, >= 2.0.6)
   tzinfo-data
+  wdm
   webrick (~> 1.9, >= 1.9.1)
 
 BUNDLED WITH
