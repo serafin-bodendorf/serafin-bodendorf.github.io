@@ -1,7 +1,7 @@
 ---
 title: Ziele und Wünsche
 description: Mein Blog ist jetzt am laufen! Zeit, um mit der Setup-Phase abzuschließen und über die nächsten Schritte nachzudenken.
-date: 2025-08-25T13:00:00.866Z
+date: 2025-08-26T13:00:00.866Z
 ---
 
 Mein Blog ist jetzt am laufen! Zeit, um mit der Setup-Phase abzuschließen und über die nächsten Schritte nachzudenken.
