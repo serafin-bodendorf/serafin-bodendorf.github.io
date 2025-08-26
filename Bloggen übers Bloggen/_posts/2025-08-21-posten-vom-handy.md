@@ -30,5 +30,5 @@ Okay, gute Nacht. Vielleicht nehme ich diesen Post morgen wieder runter lol
 <section>
     <h3> Update </h3>
     <p>Es ist jetzt morgen und ich habe mich entschieden, diesen Post online zu lassen, obwohl er nicht sehr gut ist und ich wirklich sehr müde war, als ich ihn geschrieben habe.</p>
-    <p>Ich habe mich aber auch entschieden, einen besseren Post über das Setup dieser Website zu schreiben.</p>
+    <p>Ich habe mich aber auch entschieden, einen [besseren Post]]({% post_url Bloggen übers Bloggen/_posts/2025-08-22-wie-diese-seite-funktioniert %}) über das Setup dieser Website zu schreiben.</p>
 </section>
