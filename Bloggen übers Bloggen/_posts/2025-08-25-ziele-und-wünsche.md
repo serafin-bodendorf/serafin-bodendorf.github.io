@@ -1,13 +1,14 @@
 ---
-title: "Ziele und Wünsche"
-description: "Mein Blog ist jetzt am laufen! Zeit, um mit der Setup-Phase abzuschließen und über die nächsten Schritte nachzudenken."
+title: Ziele und Wünsche
+description: Mein Blog ist jetzt am laufen! Zeit, um mit der Setup-Phase abzuschließen und über die nächsten Schritte nachzudenken.
+date: 2025-08-25T13:00:00.866Z
 ---
 
 Mein Blog ist jetzt am laufen! Zeit, um mit der Setup-Phase abzuschließen und über die nächsten Schritte nachzudenken.
 
 <!--more-->
 
-Ich verspreche, das hier ist nicht nur ein [Blog über's Bloggen]("{{ /bloggen-übers-bloggen | relative_url }}")! Tatsächlich sollte das hier fürs erste der letzte Meta-Post sein, denn ich werde mich jetzt langsam auch wieder auf andere Projekte konzentrieren, über die ich dann hier auch schreiben werde. Aber nachdem ich schon über meine [Motivation, einen Blog zu starten]("{% post_url Bloggen übers Bloggen/_posts/2025-08-18-warum-bloggen %}") sowie die [technische Umsetzung]("{% post_url Bloggen übers Bloggen/_posts/2025-08-22-wie-diese-seite-funktioniert %}") geschrieben habe, möchte ich die Start-Phase nochmal mit einem konkreten Blick in die Zukunft abschließen. Deshalb sind hier meine Ziele und Wünsche für diesen Blog:
+Ich verspreche, das hier ist nicht nur ein [Blog über's Bloggen]({{ "/bloggen-übers-bloggen" | relative_url }})! Tatsächlich sollte das hier fürs erste der letzte Meta-Post sein, denn ich werde mich jetzt langsam auch wieder auf andere Projekte konzentrieren, über die ich dann hier auch schreiben werde. Aber nachdem ich schon über meine [Motivation, einen Blog zu starten]({% post_url Bloggen übers Bloggen/2025-08-18-warum-bloggen %}) sowie die [technische Umsetzung]({% post_url Bloggen übers Bloggen/2025-08-22-wie-diese-seite-funktioniert %}) geschrieben habe, möchte ich die Start-Phase nochmal mit einem konkreten Blick in die Zukunft abschließen. Deshalb sind hier meine Ziele und Wünsche für diesen Blog:
 
 ## Inhalte
 
